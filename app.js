@@ -36,8 +36,8 @@ function borrarNumero() {
 
 function generarNumeroSecreto() {
     let numeroGenerado = Math.floor(Math.random()*numeroMaximo)+1; //crea la función numeroGenerado que equivale a la cuenta matemática para el mismo
-    console.log(numeroGenerado);
-    console.log(arrayNumeroAleatorio);
+    //console.log(numeroGenerado);
+    //console.log(arrayNumeroAleatorio);
 
     if(arrayNumeroAleatorio.length == numeroMaximo) {
         asignarTextoElemento("p", "¡Felicidades, adivinaste todos los números posibles!"); //cuando se generen todos los números posibles termina el juego y se ve este mensaje
